@@ -26,4 +26,8 @@
   padding: 10px;
   margin: 10px;
   text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  color: rgb(251, 240, 255);
+  font-size: x-large;
 }
