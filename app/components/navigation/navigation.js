@@ -5,7 +5,7 @@ import classes from "./navigation.module.css";
 
 export default function Navigation() {
   return (
-    <div className={classes.box}>
+    <div className={classes.bg}>
       <Link href='/'>
         <Image
           src={logo}
