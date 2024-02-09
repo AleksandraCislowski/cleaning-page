@@ -11,7 +11,7 @@ export default async function SectionOne({ lng }) {
   const { t } = await useTranslation(lng);
   return (
     <main className={classes.mainbox}>
-      <div className={classes.box}>
+      <div className={classes.box1}>
         <Image
           src={me}
           alt='A lady with blue hair'
@@ -19,7 +19,7 @@ export default async function SectionOne({ lng }) {
           priority
         />
       </div>
-      <div className={classes.box}>
+      <div className={classes.box1}>
         <h1>{t("title")}</h1>
         <p>
           {t("par1")}
