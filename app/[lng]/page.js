@@ -8,6 +8,7 @@ export default async function Home({ params: { lng } }) {
 
   return (
     <main>
+      <link rel='icon' href='' sizes='any' />
       <Hero />
       <h1>{t("title")}</h1>
       <p>
