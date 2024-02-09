@@ -8,7 +8,8 @@ export default async function Home({ params: { lng } }) {
     <main>
       <>
         <h1>{t("title")}</h1>
-        <Link href={`/${lng}`}>{t("back-to-home")}</Link>
+        <p>{t("par1")}</p>
+        {/* <Link href={`/${lng}`}>{t("back-to-home")}</Link> */}
         <Footer lng={lng} />
       </>
     </main>
