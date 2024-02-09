@@ -6,7 +6,7 @@ import { useTranslation } from "../../../i18n";
 export const Footer = async ({ lng }) => {
   const { t } = await useTranslation(lng, "footer");
   return (
-    <footer style={{ marginTop: 50 }}>
+    <footer>
       <Trans i18nKey='languageSwitcher' t={t}>
         Switch from <strong>{{ lng }}</strong> to:{" "}
       </Trans>
@@ -16,7 +16,7 @@ export const Footer = async ({ lng }) => {
           return (
             <span key={l}>
               {index > 0 && " or "}
-              <Link href={`/${l}`}>{l}</Link>
+              <Link href={`/${l}`}>{l === "en" ? "🇺🇸" : "🇸🇪"}</Link>
             </span>
           );
         })}
