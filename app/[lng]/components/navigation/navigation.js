@@ -9,7 +9,7 @@ export default async function Navigation({ lng }) {
   const { t } = await useTranslation(lng);
   return (
     <div className={classes.bg}>
-      <Link href='/'>
+      <Link href='/sv'>
         <Image
           src={logo}
           alt='A cleaning lady with glasses'
