@@ -1,17 +1,18 @@
 .mainbox {
   display: flex;
-  background-color: blue;
 }
 
 .box {
   height: 40rem;
-  width: auto;
-  background-color: rgb(164, 164, 205);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .img {
-  clip-path: ellipse(21% 50% at 50% 50%);
+  clip-path: ellipse(23% 50% at 50% 50%);
   object-fit: contain;
-  height: 30rem;
-  margin: 2rem;
+  height: 80%;
 }

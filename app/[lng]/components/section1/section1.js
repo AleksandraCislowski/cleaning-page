@@ -12,7 +12,12 @@ export default async function SectionOne({ lng }) {
   return (
     <main className={classes.mainbox}>
       <div className={classes.box}>
-        <Image src={me} className={classes.img} />
+        <Image
+          src={me}
+          alt='A lady with blue hair'
+          className={classes.img}
+          priority
+        />
       </div>
       <div className={classes.box}>
         <h1>{t("title")}</h1>
@@ -24,7 +29,6 @@ export default async function SectionOne({ lng }) {
           {t("par3")}
         </p>
       </div>
-      <div className={classes.box}>Karuzela</div>
     </main>
   );
 }
