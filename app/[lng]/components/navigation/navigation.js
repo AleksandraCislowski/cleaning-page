@@ -1,10 +1,12 @@
 import Link from "next/link";
-import logo from "../../../assets/icons/logo.png";
+import logo from "../../../../assets/icons/logo.png";
 import Image from "next/image";
 import classes from "./navigation.module.css";
 import { Footer } from "@/app/[lng]/components/Footer";
+import { useTranslation } from "@/app/i18n";
 
-export default function Navigation({ lng }) {
+export default async function Navigation({ lng }) {
+  const { t } = await useTranslation(lng);
   return (
     <div className={classes.bg}>
       <Link href='/'>
@@ -16,9 +18,9 @@ export default function Navigation({ lng }) {
         />
       </Link>
       <nav className={classes.nav}>
-        <li>OM OSS</li>
-        <li>TJÄNSTER</li>
-        <li>KONTAKTA OSS</li>
+        <li>{t("n1")}</li>
+        <li>{t("n2")}</li>
+        <li>{t("n3")}</li>
         <Footer lng={lng} />
       </nav>
     </div>
