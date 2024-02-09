@@ -16,7 +16,7 @@ export default function RootLayout({ children, params: { lng } }) {
   return (
     <html lang={lng} dir={dir(lng)}>
       <body>
-        <Navigation />
+        <Navigation lng={lng} />
         {children}
       </body>
     </html>

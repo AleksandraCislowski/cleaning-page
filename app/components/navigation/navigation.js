@@ -2,8 +2,9 @@ import Link from "next/link";
 import logo from "../../../assets/icons/logo.png";
 import Image from "next/image";
 import classes from "./navigation.module.css";
+import { Footer } from "@/app/[lng]/components/Footer";
 
-export default function Navigation() {
+export default function Navigation({ lng }) {
   return (
     <div className={classes.bg}>
       <Link href='/'>
@@ -18,6 +19,7 @@ export default function Navigation() {
         <li>OM OSS</li>
         <li>TJÄNSTER</li>
         <li>KONTAKTA OSS</li>
+        <Footer lng={lng} />
       </nav>
     </div>
   );
