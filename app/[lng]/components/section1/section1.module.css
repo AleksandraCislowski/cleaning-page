@@ -13,6 +13,7 @@
   justify-content: center;
   text-align: center;
   margin: 0.5rem;
+  filter: drop-shadow(1.25em 0.75em 0px rgb(181, 150, 223));
 }
 
 .box2 {

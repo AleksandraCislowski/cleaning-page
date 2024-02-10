@@ -19,7 +19,7 @@ export default async function SectionOne({ lng }) {
           priority
         />
       </div>
-      <div className={classes.box1}>
+      <div className={classes.box2}>
         <h1 className={classes.header}>{t("title")}</h1>
         <p className={classes.p}>
           {t("par1")}
