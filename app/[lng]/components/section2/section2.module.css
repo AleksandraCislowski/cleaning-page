@@ -1,5 +1,46 @@
+.mainbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .box2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+@keyframes bouncing {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 20px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.arrow {
+  animation: bouncing 1s infinite ease-in-out;
+  bottom: 0;
+  display: block;
+  height: auto;
+  width: 20rem;
+  left: 50%;
+  margin-left: -25px;
+  position: relative;
+}
+
+.header {
+  color: rgb(209, 3, 255);
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: lighter;
 }

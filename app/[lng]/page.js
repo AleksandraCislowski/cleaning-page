@@ -9,7 +9,7 @@ export default function Home({ params: { lng } }) {
       <Hero />
       <div className={classes.bg2} />
       <SectionOne lng={lng} />
-      <SectionTwo />
+      <SectionTwo lng={lng} />
     </main>
   );
 }
