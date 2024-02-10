@@ -14,7 +14,7 @@ export default async function SectionOne({ lng }) {
       <div className={classes.box1}>
         <Image
           src={me}
-          alt='A lady with blue hair'
+          alt='A cleaning lady with blue hair.'
           className={classes.img}
           priority
         />
