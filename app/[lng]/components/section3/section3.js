@@ -19,6 +19,7 @@ export default async function SectionThree({ lng }) {
               <h2>{t("s3t1")}</h2>
               <p>{t("sd1")}</p>
             </div>
+            <div className={classes.separator} />
             <button>{t("btn")}</button>
           </div>
           <div className={classes.box3}>
@@ -27,6 +28,7 @@ export default async function SectionThree({ lng }) {
               <h2>{t("s3t2")}</h2>
               <p>{t("sd2")}</p>
             </div>
+            <div className={classes.separator} />
             <button>{t("btn")}</button>
           </div>
         </div>
@@ -37,6 +39,7 @@ export default async function SectionThree({ lng }) {
               <h2>{t("s3t3")}</h2>
               <p>{t("sd3")}</p>
             </div>
+            <div className={classes.separator} />
             <button>{t("btn")}</button>
           </div>
           <div className={classes.box3}>
@@ -45,6 +48,7 @@ export default async function SectionThree({ lng }) {
               <h2>{t("s3t4")}</h2>
               <p>{t("sd4")}</p>
             </div>
+            <div className={classes.separator} />
             <button>{t("btn")}</button>
           </div>
         </div>
