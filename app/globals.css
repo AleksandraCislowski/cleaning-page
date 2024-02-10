@@ -16,39 +16,48 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
-.container {
+.spikes {
   position: relative;
   background: rgb(240, 202, 238);
   height: 1vh;
 }
 
-.wave {
-  position: absolute;
-  height: 108px;
-  width: 100%;
-  background: rgb(240, 202, 238);
-  bottom: 0;
-}
-
-.wave::before,
-.wave::after {
+.spikes::after {
   content: "";
-  display: block;
   position: absolute;
-  border-radius: 100% 50%;
+  right: 0;
+  left: -50%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 50px;
+  background-size: 50px 100%;
+  background-image: linear-gradient(
+      135deg,
+      rgb(240, 202, 238) 25%,
+      transparent 25%
+    ),
+    linear-gradient(225deg, rgb(240, 202, 238) 25%, transparent 25%);
+  background-position: 0 0;
 }
 
-.wave::before {
-  width: 55%;
-  height: 109%;
-  background-color: #e7b3e5;
-  right: -1.5%;
-  top: 60%;
+.spikes2 {
+  position: relative;
+  background: #e7b3e5;
+  height: 1vh;
 }
-.wave::after {
-  width: 55%;
-  height: 100%;
-  background-color: rgb(240, 202, 238);
-  left: -1.5%;
-  top: 40%;
+
+.spikes2::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: -50%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 50px;
+  background-size: 50px 100%;
+  background-image: linear-gradient(135deg, #e7b3e5 25%, transparent 25%),
+    linear-gradient(225deg, #e7b3e5 25%, transparent 25%);
+  background-position: 0 0;
 }
