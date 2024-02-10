@@ -9,6 +9,9 @@ export default function Home({ params: { lng } }) {
       <Hero />
       <div className={classes.bg2} />
       <SectionOne lng={lng} />
+      <section class='container'>
+        <div class='wave'></div>
+      </section>
       <SectionTwo lng={lng} />
     </main>
   );
