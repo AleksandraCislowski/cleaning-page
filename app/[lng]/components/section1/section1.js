@@ -20,8 +20,8 @@ export default async function SectionOne({ lng }) {
         />
       </div>
       <div className={classes.box1}>
-        <h1>{t("title")}</h1>
-        <p>
+        <h1 className={classes.header}>{t("title")}</h1>
+        <p className={classes.p}>
           {t("par1")}
           <PersonYearCounter />
           {t("par2")}

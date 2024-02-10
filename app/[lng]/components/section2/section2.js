@@ -14,7 +14,11 @@ export default async function SectionTwo({ lng }) {
       <div className={classes.box2}>
         <h1 className={classes.header}>{t("s2")}</h1>
         <div>
-          <Image className={classes.arrow} src={arrow} />
+          <Image
+            className={classes.arrow}
+            src={arrow}
+            alt='A purple arrow that point to the left'
+          />
         </div>
       </div>
     </div>
