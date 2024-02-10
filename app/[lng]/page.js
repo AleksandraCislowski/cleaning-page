@@ -13,7 +13,7 @@ export default function Home({ params: { lng } }) {
       <section className='spikes'></section>
       <SectionTwo lng={lng} />
       <section className='spikes2'></section>
-      <SectionThree />
+      <SectionThree lng={lng} />
     </main>
   );
 }

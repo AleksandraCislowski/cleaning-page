@@ -24,6 +24,7 @@
 @media (max-width: 950px) {
   .container {
     flex-direction: column-reverse;
+    padding: 2rem 0rem 0rem 0rem;
   }
   .arrow {
     transform: rotate(-90deg) scale(0.75);

@@ -18,3 +18,17 @@
   margin: 2rem;
   margin-top: 5rem;
 }
+
+.box3 img {
+  object-fit: cover;
+  height: 50%;
+  width: 100%;
+}
+
+.header {
+  color: rgb(191, 0, 255);
+  font-size: 3em;
+  text-align: center;
+  font-weight: lighter;
+  filter: drop-shadow(0 0 0.75rem rgba(246, 74, 234, 0.7));
+}
