@@ -1,5 +1,5 @@
 .mainbox {
-  padding: 2rem;
+  padding-top: 2rem;
 }
 
 .container {
@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .box1 {
@@ -18,7 +19,6 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 0.5rem;
   filter: drop-shadow(1.25em 0.75em 0px rgb(181, 150, 223));
 }
 
@@ -29,7 +29,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  margin: 0.5rem;
+  padding: 2rem;
 }
 
 .img {

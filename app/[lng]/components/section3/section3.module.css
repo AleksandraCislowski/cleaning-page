@@ -1,8 +1,16 @@
 .box1 {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
+  padding-top: 3rem;
   text-align: center;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .box2 {
@@ -10,13 +18,22 @@
 }
 
 .box3 {
-  width: 50%;
-  height: 40rem;
+  min-width: 350px;
+  flex: 1;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 0 0.5rem rgba(25, 1, 38, 0.5);
+  box-shadow: 0 0 0.5rem rgba(101, 6, 152, 0.5);
   margin: 2rem;
-  margin-top: 5rem;
+  background-color: #e7b3e5;
+}
+
+@media (max-width: 950px) {
+  .box2 {
+    flex-direction: column;
+  }
+  .box3 {
+    max-width: 600px;
+  }
 }
 
 .box3 img {
@@ -25,10 +42,48 @@
   width: 100%;
 }
 
+.box3 button {
+  background: #b834d9;
+  background-image: -webkit-linear-gradient(top, #b834d9, #de689d);
+  background-image: -moz-linear-gradient(top, #b834d9, #de689d);
+  background-image: -ms-linear-gradient(top, #b834d9, #de689d);
+  background-image: -o-linear-gradient(top, #b834d9, #de689d);
+  background-image: linear-gradient(to bottom, #b834d9, #de689d);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 5px 0px 3px #e00be0;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+
+.box3 button:hover {
+  background: #fc3cef;
+  text-decoration: none;
+}
+
 .header {
   color: rgb(191, 0, 255);
-  font-size: 3em;
+  font-size: 6em;
   text-align: center;
   font-weight: lighter;
   filter: drop-shadow(0 0 0.75rem rgba(246, 74, 234, 0.7));
+  font-family: "Lovers Quarrel", cursive;
+}
+
+.text h2 {
+  padding: 1rem;
+  font-weight: lighter;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Lovers Quarrel", cursive;
+  filter: drop-shadow(0 0 0.75rem rgba(246, 74, 234, 0.7));
+}
+
+.text p {
+  padding: 2rem;
 }

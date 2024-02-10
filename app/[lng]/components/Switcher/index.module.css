@@ -1,6 +1,7 @@
 .footer {
   padding: 10px;
-  margin: 10px;
+  margin: 7px;
+  margin-right: 20px;
   text-align: center;
   font-size: xx-large;
   filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 1));

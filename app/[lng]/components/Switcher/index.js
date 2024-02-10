@@ -4,7 +4,7 @@ import { languages } from "../../../i18n/settings";
 import { useTranslation } from "../../../i18n";
 import classes from "./index.module.css";
 
-export const Footer = async ({ lng }) => {
+export const Switcher = async ({ lng }) => {
   const { t } = await useTranslation(lng, "footer");
   return (
     <footer className={classes.footer}>
