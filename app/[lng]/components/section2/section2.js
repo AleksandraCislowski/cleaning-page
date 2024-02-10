@@ -8,17 +8,19 @@ export default async function SectionTwo({ lng }) {
   const { t } = await useTranslation(lng);
   return (
     <div className={classes.mainbox}>
-      <div className={classes.box2}>
-        <ImageSlideshow />
-      </div>
-      <div className={classes.box2}>
-        <h1 className={classes.header}>{t("s2")}</h1>
-        <div>
-          <Image
-            className={classes.arrow}
-            src={arrow}
-            alt='A purple arrow that point to the left'
-          />
+      <div className={classes.container}>
+        <div className={classes.box2}>
+          <ImageSlideshow />
+        </div>
+        <div className={classes.box2}>
+          <h1 className={classes.header}>{t("s2")}</h1>
+          <div>
+            <Image
+              className={classes.arrow}
+              src={arrow}
+              alt='A purple arrow that points to the left'
+            />
+          </div>
         </div>
       </div>
     </div>

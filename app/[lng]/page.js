@@ -2,6 +2,7 @@ import Hero from "./components/hero/hero";
 import classes from "./components/navigation/navigation.module.css";
 import SectionOne from "./components/section1/section1";
 import SectionTwo from "./components/section2/section2";
+import SectionThree from "./components/section3/section3";
 
 export default function Home({ params: { lng } }) {
   return (
@@ -9,9 +10,10 @@ export default function Home({ params: { lng } }) {
       <Hero />
       <div className={classes.bg2} />
       <SectionOne lng={lng} />
-      <section class='spikes'></section>
+      <section className='spikes'></section>
       <SectionTwo lng={lng} />
-      <section class='spikes2'></section>
+      <section className='spikes2'></section>
+      <SectionThree />
     </main>
   );
 }
