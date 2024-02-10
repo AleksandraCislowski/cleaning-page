@@ -15,36 +15,36 @@ export default async function SectionThree({ lng }) {
         <div className={classes.box3}>
           <Image src={t1} alt='A vacuum cleaner and a kitten next to it.' />
           <div>
-            <h2>tytul</h2>
-            <p>{t("par1")}</p>
+            <h2>{t("s3t1")}</h2>
+            <p>{t("sd1")}</p>
           </div>
-          <button>wiecej</button>
+          <button>{t("btn")}</button>
         </div>
         <div className={classes.box3}>
           <Image src={t2} alt='Cleaning products and microfiber cloths.' />
           <div>
-            <h2>tytul</h2>
-            <p>krotki opis</p>
+            <h2>{t("s3t2")}</h2>
+            <p>{t("sd2")}</p>
           </div>
-          <button>wiecej</button>
+          <button>{t("btn")}</button>
         </div>
       </div>
       <div className={classes.box2}>
         <div className={classes.box3}>
           <Image src={t3} alt='Window cleaning devices.' />
           <div>
-            <h2>tytul</h2>
-            <p>krotki opis</p>
+            <h2>{t("s3t3")}</h2>
+            <p>{t("sd3")}</p>
           </div>
-          <button>wiecej</button>
+          <button>{t("btn")}</button>
         </div>
         <div className={classes.box3}>
           <Image src={t4} alt='Nicely folded toilet paper.' />
           <div>
-            <h2>tytul</h2>
-            <p>krotki opis</p>
+            <h2>{t("s3t4")}</h2>
+            <p>{t("sd4")}</p>
           </div>
-          <button>wiecej</button>
+          <button>{t("btn")}</button>
         </div>
       </div>
     </div>
