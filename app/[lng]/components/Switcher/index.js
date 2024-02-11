@@ -5,7 +5,7 @@ import { useTranslation } from "../../../i18n";
 import classes from "./index.module.css";
 
 export const Switcher = async ({ lng }) => {
-  const { t } = await useTranslation(lng, "footer");
+  const { t } = await useTranslation(lng, "switcher");
   return (
     <footer className={classes.footer}>
       <Trans i18nKey='languageSwitcher' t={t}>
