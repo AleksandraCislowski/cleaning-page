@@ -1,0 +1,42 @@
+.hero {
+  background-image: url(../../../assets/c2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40rem;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.header1 {
+  color: rgb(209, 3, 255);
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: lighter;
+  padding: 1rem;
+}
+
+.header2 {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: lighter;
+  padding: 1rem;
+}
+
+.paragraph {
+  text-align: center;
+  line-height: 1.5;
+  font-size: large;
+}
