@@ -46,7 +46,15 @@ export default async function Card1SubPage({ params: { lng } }) {
           <li>{t("c1li14")}</li>
         </ul>
         <p className={classes.paragraph}>{t("c1p11")}</p>
-        <p className={classes.paragraph}>{t("c1p12")}</p>
+        <h2 className={classes.header3}>{t("c1p12")}</h2>
+        <div className={classes.btnbox}>
+          <Link href={`/${lng}/card1/attachment1`}>
+            <button className={classes.btn}>{t("c1btn1")}</button>
+          </Link>
+          <Link href={`/${lng}/card1/attachment2`}>
+            <button className={classes.btn}>{t("c1btn2")}</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

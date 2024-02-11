@@ -35,6 +35,13 @@
   padding: 1rem;
 }
 
+.header3 {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 4rem;
+  font-weight: lighter;
+  padding: 1rem;
+}
+
 .paragraph {
   line-height: 1.5;
   font-size: large;
@@ -51,4 +58,38 @@
 .list {
   padding-left: 3rem;
   line-height: 2;
+}
+
+.btn {
+  background: #b834d9;
+  background-image: -webkit-linear-gradient(top, #b834d9, #de689d);
+  background-image: -moz-linear-gradient(top, #b834d9, #de689d);
+  background-image: -ms-linear-gradient(top, #b834d9, #de689d);
+  background-image: -o-linear-gradient(top, #b834d9, #de689d);
+  background-image: linear-gradient(to bottom, #b834d9, #de689d);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 5px 0px 3px #e00be0;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  margin: 2px;
+}
+
+.btn:hover {
+  background: #fc3cef;
+  text-decoration: none;
+}
+
+.btnbox {
+  max-width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
 }
