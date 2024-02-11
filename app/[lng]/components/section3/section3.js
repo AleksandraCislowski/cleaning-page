@@ -8,6 +8,7 @@ import Card from "./card";
 
 export default async function SectionThree({ lng }) {
   const { t } = await useTranslation(lng);
+
   return (
     <div className={classes.box1}>
       <div className={classes.container}>
@@ -19,6 +20,7 @@ export default async function SectionThree({ lng }) {
             h2Text={t("s3t1")}
             pText={t("sd1")}
             button={t("btn")}
+            link={"/card1"}
           />
           <Card
             imgSrc={t2}
@@ -26,6 +28,7 @@ export default async function SectionThree({ lng }) {
             h2Text={t("s3t2")}
             pText={t("sd2")}
             button={t("btn")}
+            link={"/card2"}
           />
         </div>
         <div className={classes.box2}>
@@ -35,6 +38,7 @@ export default async function SectionThree({ lng }) {
             h2Text={t("s3t3")}
             pText={t("sd3")}
             button={t("btn")}
+            link={"/card3"}
           />
           <Card
             imgSrc={t4}
@@ -42,6 +46,7 @@ export default async function SectionThree({ lng }) {
             h2Text={t("s3t4")}
             pText={t("sd4")}
             button={t("btn")}
+            link={"/card4"}
           />
         </div>
       </div>
