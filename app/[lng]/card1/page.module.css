@@ -36,8 +36,19 @@
 }
 
 .paragraph {
-  text-align: center;
   line-height: 1.5;
   font-size: large;
-  padding: 0.5rem;
+  padding: 2rem;
+}
+
+.paragraph2 {
+  line-height: 1.5;
+  font-size: large;
+  padding-left: 2rem;
+  text-decoration: underline;
+}
+
+.list {
+  padding-left: 3rem;
+  line-height: 2;
 }
