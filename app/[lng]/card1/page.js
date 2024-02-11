@@ -1,5 +1,6 @@
 import { useTranslation } from "@/app/i18n";
 import classes from "./page.module.css";
+import Link from "next/link";
 
 export default async function Card1SubPage({ params: { lng } }) {
   const { t } = await useTranslation(lng);
@@ -16,7 +17,13 @@ export default async function Card1SubPage({ params: { lng } }) {
           <li>{t("c1li1")}</li>
           <li>{t("c1li2")}</li>
         </ul>
-        <p className={classes.paragraph}>{t("c1p3")}</p>
+        <p className={classes.paragraph}>
+          {t("c1p3")}
+          <Link href='#list' legacyBehavior>
+            <a>{t("c1a")}</a>
+          </Link>
+          .
+        </p>
         <p className={classes.paragraph}>{t("c1p4")}</p>
         <p className={classes.paragraph}>{t("c1p5")}</p>
         <p className={classes.paragraph}>{t("c1p6")}</p>
@@ -24,7 +31,7 @@ export default async function Card1SubPage({ params: { lng } }) {
         <p className={classes.paragraph}>{t("c1p8")}</p>
         <p className={classes.paragraph}>{t("c1p9")}</p>
         <p className={classes.paragraph2}>{t("c1p10")}</p>
-        <ul className={classes.list}>
+        <ul className={classes.list} id='list'>
           <li>{t("c1li3")}</li>
           <li>{t("c1li4")}</li>
           <li>{t("c1li5")}</li>
