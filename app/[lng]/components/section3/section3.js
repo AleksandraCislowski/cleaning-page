@@ -4,7 +4,6 @@ import t1 from "../../../../assets/t1.jpg";
 import t2 from "../../../../assets/t2.jpg";
 import t3 from "../../../../assets/t3.jpg";
 import t4 from "../../../../assets/t4.jpg";
-import Image from "next/image";
 import Card from "./card";
 
 export default async function SectionThree({ lng }) {
