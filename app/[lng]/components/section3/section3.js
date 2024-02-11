@@ -5,6 +5,7 @@ import t2 from "../../../../assets/t2.jpg";
 import t3 from "../../../../assets/t3.jpg";
 import t4 from "../../../../assets/t4.jpg";
 import Image from "next/image";
+import Card from "./card";
 
 export default async function SectionThree({ lng }) {
   const { t } = await useTranslation(lng);
@@ -13,44 +14,36 @@ export default async function SectionThree({ lng }) {
       <div className={classes.container}>
         <h1 className={classes.header}>{t("h1")}</h1>
         <div className={classes.box2}>
-          <div className={classes.box3}>
-            <Image src={t1} alt='A vacuum cleaner and a kitten next to it.' />
-            <div className={classes.text}>
-              <h2>{t("s3t1")}</h2>
-              <p>{t("sd1")}</p>
-            </div>
-            <div className={classes.separator} />
-            <button>{t("btn")}</button>
-          </div>
-          <div className={classes.box3}>
-            <Image src={t2} alt='Cleaning products and microfiber cloths.' />
-            <div className={classes.text}>
-              <h2>{t("s3t2")}</h2>
-              <p>{t("sd2")}</p>
-            </div>
-            <div className={classes.separator} />
-            <button>{t("btn")}</button>
-          </div>
+          <Card
+            imgSrc={t1}
+            imgAlt={"A vacuum cleaner and a kitten next to it."}
+            h2Text={t("s3t1")}
+            pText={t("sd1")}
+            button={t("btn")}
+          />
+          <Card
+            imgSrc={t2}
+            imgAlt={"Cleaning products and microfiber cloths."}
+            h2Text={t("s3t2")}
+            pText={t("sd2")}
+            button={t("btn")}
+          />
         </div>
         <div className={classes.box2}>
-          <div className={classes.box3}>
-            <Image src={t3} alt='Window cleaning devices.' />
-            <div className={classes.text}>
-              <h2>{t("s3t3")}</h2>
-              <p>{t("sd3")}</p>
-            </div>
-            <div className={classes.separator} />
-            <button>{t("btn")}</button>
-          </div>
-          <div className={classes.box3}>
-            <Image src={t4} alt='Nicely folded toilet paper.' />
-            <div className={classes.text}>
-              <h2>{t("s3t4")}</h2>
-              <p>{t("sd4")}</p>
-            </div>
-            <div className={classes.separator} />
-            <button>{t("btn")}</button>
-          </div>
+          <Card
+            imgSrc={t3}
+            imgAlt={"Window cleaning devices."}
+            h2Text={t("s3t3")}
+            pText={t("sd3")}
+            button={t("btn")}
+          />
+          <Card
+            imgSrc={t4}
+            imgAlt={"Nicely folded toilet paper.'"}
+            h2Text={t("s3t4")}
+            pText={t("sd4")}
+            button={t("btn")}
+          />
         </div>
       </div>
     </div>
