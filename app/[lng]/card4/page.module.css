@@ -39,4 +39,18 @@
   text-align: center;
   line-height: 1.5;
   font-size: large;
+  padding: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.paragraph2 {
+  line-height: 1.5;
+  font-size: large;
+  padding-left: 1rem;
+  text-decoration: underline;
+}
+
+.list {
+  padding-left: 2rem;
+  line-height: 2;
 }

@@ -10,7 +10,11 @@ export default async function Card1SubPage({ params: { lng } }) {
       <div className={classes.container}>
         <h1 className={classes.header1}>{t("c1h1")}</h1>
         <h2 className={classes.header2}>{t("c1h2")}</h2>
-        <p className={classes.paragraph}>{t("c1p1")}</p>
+        <p className={classes.paragraph}>{t("c3p1")}</p>
+        <p className={classes.paragraph}>{t("c3p2")}</p>
+        <p className={classes.paragraph}>{t("c3p3")}</p>
+        <p className={classes.paragraph}>{t("c3p4")}</p>
+        <p className={classes.paragraph}>{t("c3p5")}</p>
       </div>
     </div>
   );

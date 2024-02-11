@@ -8,9 +8,16 @@ export default async function Card1SubPage({ params: { lng } }) {
     <div>
       <div className={classes.hero}></div>
       <div className={classes.container}>
-        <h1 className={classes.header1}>{t("c1h1")}</h1>
-        <h2 className={classes.header2}>{t("c1h2")}</h2>
-        <p className={classes.paragraph}>{t("c1p1")}</p>
+        <h1 className={classes.header1}>{t("c4h1")}</h1>
+        <p className={classes.paragraph}>{t("c4p1")}</p>
+        <p className={classes.paragraph2}>{t("c4p2")}</p>
+        <ul className={classes.list}>
+          <li>{t("c4li1")}</li>
+          <li>{t("c4li2")}</li>
+          <li>{t("c4li3")}</li>
+          <li>{t("c4li4")}</li>
+          <li>{t("c4li5")}</li>
+        </ul>
       </div>
     </div>
   );
