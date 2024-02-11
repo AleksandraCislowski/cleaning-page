@@ -2,7 +2,15 @@ import classes from "./section3.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Card({ imgSrc, imgAlt, h2Text, pText, link, button }) {
+export default function Card({
+  imgSrc,
+  imgAlt,
+  lng,
+  h2Text,
+  pText,
+  link,
+  button,
+}) {
   return (
     <div className={classes.box3}>
       <Image src={imgSrc} alt={imgAlt} />
@@ -11,7 +19,7 @@ export default function Card({ imgSrc, imgAlt, h2Text, pText, link, button }) {
         <p>{pText}</p>
       </div>
       <div className={classes.separator} />
-      <Link href={link}>
+      <Link href={`/${lng}${link}`}>
         <button>{button}</button>
       </Link>
     </div>

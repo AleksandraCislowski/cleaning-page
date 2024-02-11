@@ -21,6 +21,7 @@ export default async function SectionThree({ lng }) {
             pText={t("sd1")}
             button={t("btn")}
             link={"/card1"}
+            lng={lng}
           />
           <Card
             imgSrc={t2}
@@ -29,6 +30,7 @@ export default async function SectionThree({ lng }) {
             pText={t("sd2")}
             button={t("btn")}
             link={"/card2"}
+            lng={lng}
           />
         </div>
         <div className={classes.box2}>
@@ -39,6 +41,7 @@ export default async function SectionThree({ lng }) {
             pText={t("sd3")}
             button={t("btn")}
             link={"/card3"}
+            lng={lng}
           />
           <Card
             imgSrc={t4}
@@ -47,6 +50,7 @@ export default async function SectionThree({ lng }) {
             pText={t("sd4")}
             button={t("btn")}
             link={"/card4"}
+            lng={lng}
           />
         </div>
       </div>

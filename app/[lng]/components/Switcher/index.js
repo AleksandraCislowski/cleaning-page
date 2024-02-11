@@ -3,11 +3,13 @@ import { Trans } from "react-i18next/TransWithoutContext";
 import { languages } from "../../../i18n/settings";
 import { useTranslation } from "../../../i18n";
 import classes from "./index.module.css";
+import SwitchLink from "./switchingLink";
 
 export const Switcher = async ({ lng }) => {
   const { t } = await useTranslation(lng, "switcher");
+
   return (
-    <footer className={classes.footer}>
+    <div className={classes.switcher}>
       <Trans i18nKey='languageSwitcher' t={t}>
         Switch from <strong>{{ lng }}</strong> to:{" "}
       </Trans>
@@ -17,12 +19,10 @@ export const Switcher = async ({ lng }) => {
           return (
             <span key={l}>
               {index > 0 && " or "}
-              <Link href={`/${l}`} style={{ textDecoration: "none" }}>
-                {l === "en" ? "🇺🇸" : "🇸🇪"}
-              </Link>
+              <SwitchLink newLng={l === "en" ? "en" : "sv"} />
             </span>
           );
         })}
-    </footer>
+    </div>
   );
 };
