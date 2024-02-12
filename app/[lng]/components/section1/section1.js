@@ -18,6 +18,7 @@ export default async function SectionOne({ lng }) {
             alt='A cleaning lady with blue hair.'
             className={classes.img}
             priority
+            id='section1'
           />
         </div>
         <div className={classes.box2}>

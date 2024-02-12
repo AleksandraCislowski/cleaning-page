@@ -12,7 +12,9 @@ export default async function SectionThree({ lng }) {
   return (
     <div className={classes.box1}>
       <div className={classes.container}>
-        <h1 className={classes.header}>{t("h1")}</h1>
+        <h1 className={classes.header} id='section3'>
+          {t("h1")}
+        </h1>
         <div className={classes.box2}>
           <Card
             imgSrc={t1}

@@ -56,3 +56,16 @@
     display: none;
   }
 }
+
+.link {
+  text-decoration: none;
+  height: 0;
+}
+
+.link:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(96, 15, 107);
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.8);
+  filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.9));
+}
