@@ -20,8 +20,17 @@
   justify-content: center;
 }
 
-.box2 {
-  background-image: url(../../../../assets/blob.svg);
+.icon {
+  bottom: 0;
+  display: block;
+  height: auto;
+  width: 20rem;
+  margin-left: -25px;
+  position: relative;
+}
+
+.blob1 {
+  background-image: url(../../../../assets/blob1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -31,7 +40,78 @@
   border-radius: 8px;
   overflow: hidden;
   margin: 2rem;
-  background-color: #b3b7e7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.blob2 {
+  background-image: url(../../../../assets/blob2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 400px;
+  max-height: 400px;
+  height: 40rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.blob3 {
+  background-image: url(../../../../assets/blob3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 400px;
+  max-height: 400px;
+  height: 40rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.blob4 {
+  background-image: url(../../../../assets/blob4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 400px;
+  max-height: 400px;
+  height: 40rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.blob5 {
+  background-image: url(../../../../assets/blob5.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 400px;
+  max-height: 400px;
+  height: 40rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
