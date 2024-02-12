@@ -1,0 +1,95 @@
+.mainbox {
+  background-color: #e7b3e5;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.header1 {
+  color: rgb(209, 3, 255);
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: lighter;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.header2 {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 4rem;
+  font-weight: lighter;
+  text-align: center;
+  padding: 1rem;
+}
+
+.paragraph {
+  line-height: 1.5;
+  font-size: large;
+  padding: 2rem;
+  text-align: center;
+}
+
+.paragraph2 {
+  line-height: 1.5;
+  font-size: large;
+  padding-left: 2rem;
+  text-decoration: underline;
+  margin: 1rem;
+}
+
+.spikes {
+  position: relative;
+  background: rgb(240, 202, 238) 25%;
+  height: 5vh;
+}
+
+.spikes::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 70px;
+  background-size: 70px 100%;
+  background-image: linear-gradient(
+      135deg,
+      rgb(240, 202, 238) 25%,
+      transparent 25%
+    ),
+    linear-gradient(225deg, rgb(240, 202, 238) 25%, transparent 25%);
+  background-position: 0 0;
+}
+
+.spikes2 {
+  position: relative;
+  background: #e7b3e5;
+  height: 10vh;
+}
+
+.spikes2::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 70px;
+  background-size: 70px 100%;
+  background-image: linear-gradient(135deg, #e7b3e5 25%, transparent 25%),
+    linear-gradient(225deg, #e7b3e5 25%, transparent 25%);
+  background-position: 0 0;
+}
+
+.list {
+  padding-left: 3rem;
+  line-height: 2;
+}
