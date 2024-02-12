@@ -1,4 +1,12 @@
-.container {
+.paragraph {
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  text-align: center;
+  font-weight: lighter;
+  padding: 2rem;
+}
+
+.box1 {
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
@@ -6,27 +14,32 @@
   flex-wrap: wrap;
 }
 
-.header {
-  color: rgb(0, 0, 0);
-  font-family: "Lovers Quarrel", cursive;
-  font-size: 6rem;
-  text-align: center;
-  font-weight: lighter;
-}
-
-.box1 {
+.box2 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 5rem;
 }
 
 .icon {
   bottom: 0;
   display: block;
   height: auto;
-  width: 20rem;
-  margin-left: -25px;
-  position: relative;
+  width: 3rem;
+}
+
+.blob {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 400px;
+  max-height: 400px;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .blob1 {
@@ -34,87 +47,17 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  width: 400px;
-  max-height: 400px;
-  height: 40rem;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 2rem;
 }
 
 .blob2 {
   background-image: url(../../../../assets/blob2.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 400px;
-  max-height: 400px;
-  height: 40rem;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 2rem;
 }
-
 .blob3 {
   background-image: url(../../../../assets/blob3.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 400px;
-  max-height: 400px;
-  height: 40rem;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 2rem;
 }
-
 .blob4 {
   background-image: url(../../../../assets/blob4.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 400px;
-  max-height: 400px;
-  height: 40rem;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 2rem;
 }
-
 .blob5 {
   background-image: url(../../../../assets/blob5.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 400px;
-  max-height: 400px;
-  height: 40rem;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 2rem;
 }
