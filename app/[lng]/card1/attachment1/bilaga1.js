@@ -29,6 +29,26 @@ export default async function Bilaga1({ lng }) {
             <li>{t("att1li9")}</li>
             <li>{t("att1li10")}</li>
             <li>{t("att1li11")}</li>
+            <li>{t("att1li19")}</li>
+          </ul>
+          <p className={classes.paragraph2}>{t("att1p8")}</p>
+          <ul className={classes.list}>
+            <li>{t("att1li12")}</li>
+            <li>{t("att1li13")}</li>
+            <li>{t("att1li14")}</li>
+            <li>{t("att1li15")}</li>
+            <li>{t("att1li16")}</li>
+            <li>{t("att1li17")}</li>
+            <li>{t("att1li18")}</li>
+            <li>{t("att1li19")}</li>
+          </ul>
+          <p className={classes.paragraph2}>{t("att1p9")}</p>
+          <ul className={classes.list}>
+            <li>{t("att1li20")}</li>
+            <li>{t("att1li21")}</li>
+            <li>{t("att1li22")}</li>
+            <li>{t("att1li23")}</li>
+            <li>{t("att1li24")}</li>
           </ul>
         </div>
       </div>

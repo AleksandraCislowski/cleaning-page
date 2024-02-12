@@ -40,6 +40,7 @@
   font-size: large;
   padding-left: 2rem;
   text-decoration: underline;
+  margin: 1rem;
 }
 
 .spikes {
@@ -70,7 +71,7 @@
 .spikes2 {
   position: relative;
   background: #e7b3e5;
-  height: 40vh;
+  height: 10vh;
 }
 
 .spikes2::after {
