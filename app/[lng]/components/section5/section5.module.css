@@ -31,6 +31,7 @@
 
 .card__header h3 {
   font-size: 15px;
+  text-decoration: underline;
 }
 
 .card__header p {
@@ -52,7 +53,7 @@
 }
 
 .card_bg_purple {
-  background: hsl(263deg, 55%, 52%);
+  background: hsl(285, 55%, 52%);
   color: white;
   background-image: url(../../../../assets/icons/1.svg);
   background-repeat: no-repeat;
@@ -60,12 +61,12 @@
 }
 
 .card_bg_gray_blue {
-  background: hsl(217deg, 19%, 35%);
+  background: hsl(258, 19%, 35%);
   color: white;
 }
 
-.card_bg_black_blue {
-  background: hsl(219deg, 29%, 14%);
+.card_bg_black_pink {
+  background: hsl(283, 30%, 14%);
   color: white;
 }
 

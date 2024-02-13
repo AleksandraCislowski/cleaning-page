@@ -69,7 +69,7 @@ export default function SectionFive() {
           </p>
         </div>
 
-        <div className={`${classes.card} ${classes.card_bg_black_blue}`}>
+        <div className={`${classes.card} ${classes.card_bg_black_pink}`}>
           <header className={classes.card__header}>
             <div>
               <h3>Jana</h3>
