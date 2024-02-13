@@ -4,6 +4,7 @@ import SectionOne from "./components/section1/section1";
 import SectionTwo from "./components/section2/section2";
 import SectionThree from "./components/section3/section3";
 import SectionFour from "./components/section4/section4";
+import SectionFive from "./components/section5/section5";
 
 export default function Home({ params: { lng } }) {
   return (
@@ -16,6 +17,7 @@ export default function Home({ params: { lng } }) {
       <section className='spikes2'></section>
       <SectionThree lng={lng} />
       <SectionFour lng={lng} />
+      <SectionFive lng={lng} />
     </main>
   );
 }
