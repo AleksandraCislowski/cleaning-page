@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Trans } from "react-i18next/TransWithoutContext";
 import { languages } from "../../../i18n/settings";
 import { useTranslation } from "../../../i18n";

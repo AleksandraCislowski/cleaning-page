@@ -18,12 +18,12 @@ export default async function Navigation({ lng }) {
         />
       </Link>
       <nav className={classes.nav}>
-        <Link href='/#section1' legacyBehavior>
+        <Link href={`${lng}/#section1`} legacyBehavior>
           <a className={classes.link}>
             <li>{t("n1")}</li>
           </a>
         </Link>
-        <Link href='/#section3' legacyBehavior>
+        <Link href={`${lng}/#section3`} legacyBehavior>
           <a className={classes.link}>
             <li>{t("n2")}</li>
           </a>
