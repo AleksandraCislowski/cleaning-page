@@ -15,7 +15,7 @@ export default function Home({ params: { lng } }) {
       <SectionTwo lng={lng} />
       <section className='spikes2'></section>
       <SectionThree lng={lng} />
-      <SectionFour lnh={lng} />
+      <SectionFour lng={lng} />
     </main>
   );
 }
