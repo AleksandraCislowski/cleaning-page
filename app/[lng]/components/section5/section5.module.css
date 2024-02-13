@@ -1,7 +1,9 @@
 .s2 h2 {
+  font-size: 6em;
   text-align: center;
-  color: rgb(27, 27, 143);
-  font-size: 50px;
+  font-weight: lighter;
+  filter: drop-shadow(0 0 0.75rem rgba(246, 74, 234, 0.7));
+  font-family: "Lovers Quarrel", cursive;
 }
 
 .testimonials {

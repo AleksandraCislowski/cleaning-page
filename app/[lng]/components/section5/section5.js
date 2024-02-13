@@ -8,101 +8,111 @@ export default function SectionFive() {
         <div className={`${classes.card} ${classes.card_bg_purple}`}>
           <header className={classes.card__header}>
             <div>
-              <h3>Daniel Clifford</h3>
-              <p>Provides a temporary house</p>
+              <h3>Madeleine Adrienne</h3>
+              <p>Regular customer</p>
             </div>
           </header>
           <p className={classes.card__lead}>
-            For many years my house has been used as a temporary home to many
-            cats from High Paw. It feels great to be able to help!
+            Aleksandra är verkligen världens bästa!
           </p>
           <p className={classes.card__quote}>
-            "When my first kitten came to me for the first time, my heart broke.
-            All of his body was dirty, he was also weak and very sick. He had
-            already been provided with medical care and all the necessary
-            treatments, but he needed a place where he could recover and
-            regenerate in peace. The period of recovery lasted a long time,
-            several months. Fortunately, the kitten was adopted shortly after
-            that. From that day I always knew I wanted to help animals in need.
-            "
+            "Inte bara det att hon städar utmärkt utan hon är också världens
+            gulligaste! När jag var med om en olycka så ställde hon upp extra
+            mycket och tog hand om mig! Människor med hjärtan som hennes finns
+            det inte många utav ❤️ rekommenderar Aleksandra starkt! Jag skulle
+            inte klarat mig utan henne! "
+          </p>
+          <br />
+          <header className={classes.card__header}>
+            <div>
+              <h3>Elin</h3>
+              <p>Former customer</p>
+            </div>
+          </header>
+          <p className={classes.card__lead}>Superproffsig och duktig firma!</p>
+          <p className={classes.card__quote}>
+            "Anlitat dem ett flertal gånger och varit extremt nöjd varje gång."
           </p>
         </div>
 
         <div className={`${classes.card} ${classes.card_bg_gray_blue}`}>
           <header className={classes.card__header}>
             <div>
-              <h3>Jonathan Walters</h3>
-              <p>Just applied for an adoption</p>
+              <h3>Boontariga</h3>
+              <p>Regular customer</p>
             </div>
           </header>
           <p className={classes.card__lead}>
-            Just now I finished the adoption's application for Blinky!
+            Kan varmt rekommendera Aleksandra.
           </p>
           <p className={classes.card__quote}>
-            "I really hope my application will be granted and Blinky could start
-            a new life with me at my small apartment. Fingers crossed! "
+            Har haft henne i väldigt många år och även rekommenderat henne till
+            mina närmaste vänner. Hon är trevlig, noggrann och löser alltid vår
+            behov! Vi har använt henne till flyttstädning, städ varje vecka,
+            kontorsstädning och även montering av ikeamöbler. Kommer aldrig byta
+            städfirma! Kan ge min varmaste rekommendationer 🌸
           </p>
         </div>
 
         <div className={classes.card}>
           <header className={classes.card__header}>
             <div>
-              <h3>Jeanette Harmon</h3>
-              <p>Honorary donor</p>
+              <h3>Ruth Josefin</h3>
+              <p>Former customer</p>
             </div>
           </header>
-          <p className={classes.card__lead}>
-            Provided cat food and warm blankets and towels for the shelter
-          </p>
+          <p className={classes.card__lead}>Aleksandra är så noggrann!</p>
           <p className={classes.card__quote}>
-            "It feels amazing to be able to help! I'm an owner of an animal shop
-            so I have access to a lot of useful resources. I just wanted to
-            share with cats in need."
+            "Pålitlig och flexibel 🌸 har rekommenderat henne till flertal
+            vänner då hon är extremt proffsig och städningen blir alltid i topp!
+            👌🏻 "
           </p>
         </div>
 
         <div className={`${classes.card} ${classes.card_bg_black_blue}`}>
           <header className={classes.card__header}>
             <div>
-              <h3>Patrick Abrahms</h3>
-              <p>Adopted a cat few years ago</p>
+              <h3>Jana</h3>
+              <p>Regular customer</p>
             </div>
           </header>
           <p className={classes.card__lead}>
-            He adopted a cat named Squishy and from that day they are
-            inseparable
+            Jag kan varmt rekommendera Aleksandra Cislowski Städfirma!
           </p>
           <p className={classes.card__quote}>
-            "Squishy came to me three years ago. I was having a very hard time
-            in my life at the moment and I needed someone to help me get back on
-            my feet. He turned out to be a great friend, now we create a new
-            family together. I can't imagine my life without him anymore. I love
-            him very much and my decision to adopt was the best in my entire
-            life."
+            "Det är alltid fint städat. Proffsigt! Hennes fönterputs är ngt
+            extra! Hon är mkt flexibel och trevlig. Super lätt kommunicera via
+            Mail eller SMS. Lämnar påminnelser vad behövs till nästa
+            städtillfälle och överraskar med hälsningskort!
           </p>
         </div>
 
         <div className={classes.card}>
           <header className={classes.card__header}>
             <div>
-              <h3>Kira Whittle</h3>
-              <p>Volunteer</p>
+              <h3>Sybille</h3>
+              <p>Regular customer</p>
             </div>
           </header>
-          <p className={classes.card__lead}>
-            She has recently started her adventure with saving cats as a
-            volunteer. In her spare time, she helps with the interventions and
-            safeguards of animals
-          </p>
           <p className={classes.card__quote}>
-            "Recently, I participated in the rescue of a cat mother and her 5
-            offspring. All the animals were in very bad condition, we didn't
-            have much time to help them. The little ones were very cold and
-            malnourished. Fortunately, all the animals were quickly taken to the
-            vet's care and then to a temporary home. Now they are getting ready
-            for the adoption process. I hope they will quickly find a new home
-            and a loving, wonderful family to look after and care for them. That
-            was a life changing experience. "
+            "Jag och min man arbetar båda heltid och vi var båda överens att vi
+            skulle anlita städhjälp ca två dagar i månaden. Som så många andra
+            tyckte vi dock det var ett stort steg att låta en främmande människa
+            vara ensam i vår lägenhet flera timmar med allt vad det innebar. Vi
+            var väl även båda två en aning misstänksamma mot städbranschen
+            överlag med tanke på att branschen är ökänd för sina dåliga villkor
+            och många gånger har det kommit fram att utsatta människor har
+            utnyttjats på ett sätt som inte är värdigt. Lyckligtvis har vi haft
+            turen att komma i kontakt med Aleksandra och hennes företag.
+            Aleksandra talar flytande engelska (hon håller på och lär sig
+            svenska) så kommunikationen har aldrig varit ett problem och det
+            bästa av allt är att hon verkar trivas med sitt yrke. Hon har en
+            fantastisk förmåga att "känna sin kund" och komma med synpunkter och
+            "husmorstips" på t.ex. vilka kemikalier och städutrustning som bör
+            köpas in. Det går säkert att hitta ett något billigare alternativ
+            men för den som uppskattar förtroende och professionalitet samt vill
+            vara säker på att verksamheten är hederlig så kan jag och min man
+            varmt rekommendera Aleksandra 🌸"
           </p>
         </div>
       </div>
