@@ -5,3 +5,16 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.accordion {
+  background-color: rgb(221, 166, 240);
+  margin: 0.2rem;
+}
+
+.question {
+  font-size: 20px;
+}
+
+.header {
+  text-align: center;
+}
