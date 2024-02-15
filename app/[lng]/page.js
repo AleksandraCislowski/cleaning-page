@@ -21,7 +21,7 @@ export default function Home({ params: { lng } }) {
       <SectionFour lng={lng} />
       <SectionFive lng={lng} />
       <SectionSix lng={lng} />
-      <SectionSeven />
+      <SectionSeven lng={lng} />
     </main>
   );
 }
