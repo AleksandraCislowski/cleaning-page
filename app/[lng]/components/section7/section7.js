@@ -8,7 +8,6 @@ import { useTranslation } from "@/app/i18n";
 import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
 import AlternateEmailOutlinedIcon from "@mui/icons-material/AlternateEmailOutlined";
 import QueryBuilderOutlinedIcon from "@mui/icons-material/QueryBuilderOutlined";
-import ContactSupportOutlinedIcon from "@mui/icons-material/ContactSupportOutlined";
 import fblogo from "@/assets/icons/fblogo.png";
 
 export default async function SectionSeven({ lng }) {
@@ -37,11 +36,7 @@ export default async function SectionSeven({ lng }) {
           text={t("s7p3")}
           text2={t("s7p4")}
         />
-        <Card2
-          text={t("s7p5")}
-          src={fblogo}
-          icon={<ContactSupportOutlinedIcon />}
-        />
+        <Card2 src={fblogo} />
       </div>
     </div>
   );

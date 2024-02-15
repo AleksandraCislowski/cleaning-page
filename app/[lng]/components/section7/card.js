@@ -14,15 +14,12 @@ export function Card({ icon, text, text2 }) {
   );
 }
 
-export function Card2({ src, text, text2, icon }) {
+export function Card2({ src }) {
   return (
-    <div className={classes.card}>
+    <div className={classes.card2}>
       <div>
-        <div>{icon}</div>
-        <p>{text}</p>
-        <p>{text2}</p>
         <Link href=''>
-          <Image src={src} className={classes.icon2} />
+          <Image src={src} className={classes.icon} />
         </Link>
       </div>
     </div>
