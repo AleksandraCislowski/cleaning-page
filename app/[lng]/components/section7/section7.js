@@ -1,6 +1,5 @@
 import classes from "./section7.module.css";
-import { Card } from "./card";
-import { Card2 } from "./card";
+import { Card, Card2, Card3 } from "./card";
 import Image from "next/image";
 import logo from "@/assets/icons/logo.png";
 import Link from "next/link";
@@ -26,7 +25,7 @@ export default async function SectionSeven({ lng }) {
           text={t("s7p1")}
           text2='073 333 89 01'
         />
-        <Card
+        <Card2
           icon={<AlternateEmailOutlinedIcon />}
           text={t("s7p2")}
           text2='aleksandra.swigon91@gmail.com'
@@ -36,7 +35,7 @@ export default async function SectionSeven({ lng }) {
           text={t("s7p3")}
           text2={t("s7p4")}
         />
-        <Card2 src={fblogo} />
+        <Card3 src={fblogo} />
       </div>
     </div>
   );
