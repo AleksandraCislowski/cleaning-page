@@ -1,0 +1,28 @@
+.container {
+  max-width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 8px;
+  box-shadow: 0 0 0.5rem rgba(101, 6, 152, 0.5);
+  margin: 2rem;
+  background-color: #e7b3e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+}
