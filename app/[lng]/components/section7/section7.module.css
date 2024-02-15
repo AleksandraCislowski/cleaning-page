@@ -4,7 +4,6 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background-color: aqua;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -12,8 +11,8 @@
 }
 
 .card {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 8px;
   box-shadow: 0 0 0.5rem rgba(101, 6, 152, 0.5);
   margin: 2rem;
@@ -25,4 +24,21 @@
 
 .box {
   display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.header {
+  font-size: 6em;
+  text-align: center;
+  font-weight: lighter;
+  filter: drop-shadow(0 0 0.75rem rgba(246, 74, 234, 0.7));
+  font-family: "Lovers Quarrel", cursive;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 950px) {
+  .box {
+    flex-direction: column;
+  }
 }

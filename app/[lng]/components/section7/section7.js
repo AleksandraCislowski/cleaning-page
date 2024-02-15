@@ -4,7 +4,7 @@ import Card from "./card";
 export default function SectionSeven() {
   return (
     <div className={classes.container}>
-      <h1>KONTAKTA OSS</h1>
+      <h1 className={classes.header}>Kontakta</h1>
       <div className={classes.box}>
         <Card />
         <Card />
