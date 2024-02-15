@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: center;
   padding: 5px;
+  background: linear-gradient(to bottom right, rgb(158, 67, 211), pink);
 }
 
 .card2 {
