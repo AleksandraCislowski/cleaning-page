@@ -14,7 +14,9 @@ export default async function SectionSeven({ lng }) {
   return (
     <div className={classes.container}>
       <div className={classes.box}>
-        <h1 className={classes.header}>{t("s7h")}</h1>
+        <h1 className={classes.header} id='section7'>
+          {t("s7h")}{" "}
+        </h1>
         <Link href={`/${lng}`}>
           <Image src={logo} className={classes.icon} />
         </Link>

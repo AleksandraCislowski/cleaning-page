@@ -28,7 +28,11 @@ export default async function Navigation({ lng }) {
             <li>{t("n2")}</li>
           </a>
         </Link>
-        <li>{t("n3")}</li>
+        <Link href={`/${lng}/#section7`} legacyBehavior>
+          <a className={classes.link}>
+            <li>{t("n3")}</li>
+          </a>
+        </Link>
         <Switcher lng={lng} />
       </nav>
     </div>

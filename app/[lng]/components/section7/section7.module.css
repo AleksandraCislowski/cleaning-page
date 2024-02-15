@@ -49,6 +49,12 @@
   margin: 2rem;
 }
 
+.text {
+  font-size: large;
+  text-decoration: underline;
+  margin: 0.5rem;
+}
+
 .icon {
   width: 10rem;
   height: 10rem;

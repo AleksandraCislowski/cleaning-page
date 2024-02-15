@@ -6,7 +6,7 @@ export function Card({ icon, text, text2 }) {
     <div className={classes.card}>
       <div>
         <div>{icon}</div>
-        <p>{text}</p>
+        <p className={classes.text}>{text}</p>
         <p>{text2}</p>
       </div>
     </div>
@@ -18,7 +18,7 @@ export function Card2({ icon, text, text2 }) {
     <div className={classes.card}>
       <div>
         <div>{icon}</div>
-        <p>{text}</p>
+        <p className={classes.text}>{text}</p>
         <a href='mailto: aleksandra.swigon91@gmail.com'>
           <p>{text2}</p>
         </a>
