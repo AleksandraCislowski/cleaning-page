@@ -2,7 +2,7 @@ import * as React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
+import ExpandCircleDownOutlinedIcon from "@mui/icons-material/ExpandCircleDownOutlined";
 import classes from "./accordion.module.css";
 
 export default function AccordionMyItem({ question, answer, isExpanded }) {
@@ -10,7 +10,7 @@ export default function AccordionMyItem({ question, answer, isExpanded }) {
     <div className={classes.container}>
       <Accordion defaultExpanded={isExpanded} className={classes.accordion}>
         <AccordionSummary
-          expandIcon={<ExpandCircleDownIcon />}
+          expandIcon={<ExpandCircleDownOutlinedIcon />}
           className={classes.question}
         >
           {question}

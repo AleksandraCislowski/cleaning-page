@@ -4,11 +4,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 0.1rem 1rem 0rem 1rem;
 }
 
 .accordion {
-  background-color: rgb(221, 166, 240);
+  background-color: rgb(208, 117, 228);
   margin: 0.2rem;
+  color: white;
 }
 
 .question {
@@ -16,5 +18,14 @@
 }
 
 .header {
+  font-size: 6em;
   text-align: center;
+  font-weight: lighter;
+  filter: drop-shadow(0 0 0.75rem rgba(246, 74, 234, 0.7));
+  font-family: "Lovers Quarrel", cursive;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  color: brown;
 }
