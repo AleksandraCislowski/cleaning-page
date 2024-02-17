@@ -1,6 +1,6 @@
 import classes from "./section5.module.css";
 
-export async function DoubleTestimonial({
+export function DoubleTestimonial({
   author1,
   a1_p,
   a1_lead,
