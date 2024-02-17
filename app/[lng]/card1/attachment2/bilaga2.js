@@ -1,14 +1,14 @@
-import classes from "./page.module.css";
+import classes from "./bilaga2page.module.css";
 import { useTranslation } from "@/app/i18n";
 
-export default async function Bilaga1({ lng }) {
+export default async function Bilaga2({ lng }) {
   const { t } = await useTranslation(lng);
   return (
     <div>
       <section className={classes.spikes}></section>
-      <div className={classes.mainbox}>
+      <div className={classes.background}>
         <div className={classes.container}>
-          <h1 className={classes.header1}>{t("att2h1")}</h1>
+          <h2 className={classes.header2}>{t("att2h2")}</h2>
           <ol className={classes.list}>
             <li>{t("att2li1")}</li>
             <li>{t("att2li2")}</li>
