@@ -8,7 +8,7 @@ import { useTranslation } from "@/app/i18n";
 export default async function Navigation({ lng }) {
   const { t } = await useTranslation(lng);
   return (
-    <div className={classes.bg_wave1}>
+    <main className={classes.bg_wave1}>
       <Link href='/sv'>
         <Image
           src={logo}
@@ -35,6 +35,6 @@ export default async function Navigation({ lng }) {
         </Link>
         <Switcher lng={lng} />
       </nav>
-    </div>
+    </main>
   );
 }
