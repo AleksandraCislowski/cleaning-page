@@ -20,7 +20,7 @@ export function DoubleTestimonial({
         </div>
       </header>
       <p className={classes.card__lead}>{a1_lead}</p>
-      <p className={classes.card__quote}>"{a1_quote}"</p>
+      <p className={classes.card__quote}>{`"${a1_quote}"`}</p>
       <br />
       <header className={classes.card__header}>
         <div>
@@ -29,7 +29,7 @@ export function DoubleTestimonial({
         </div>
       </header>
       <p className={classes.card__lead}>{a2_lead}</p>
-      <p className={classes.card__quote}>"{a2_quote}"</p>
+      <p className={classes.card__quote}>{`"${a2_quote}"`}</p>
     </div>
   );
 }
@@ -50,7 +50,8 @@ export function SingleTestimonial({
         </div>
       </header>
       <p className={classes.card__lead}>{text_lead}</p>
-      <p className={classes.card__quote}>"{text_quote}"</p>
+      <p className={classes.card__quote}>{`"${text_quote}"`}</p>
     </div>
   );
 }
+
