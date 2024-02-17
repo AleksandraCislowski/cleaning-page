@@ -6,7 +6,7 @@ import icon2 from "@/assets/icons/icon2.png";
 import icon3 from "@/assets/icons/icon3.png";
 import icon4 from "@/assets/icons/icon4.png";
 import icon5 from "@/assets/icons/icon5.png";
-import { PersonYearCounter } from "../year-counter";
+import { PersonYearCounter } from "../Year-counter";
 
 export default async function SectionFour({ lng }) {
   const { t } = await useTranslation(lng);

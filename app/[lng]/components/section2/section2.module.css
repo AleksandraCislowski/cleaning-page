@@ -1,4 +1,4 @@
-.mainbox {
+.background {
   background-color: #e7b3e5;
 }
 
@@ -10,7 +10,7 @@
   flex-wrap: wrap;
 }
 
-.box2 {
+.half_container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +19,22 @@
   flex-direction: column;
   margin: 2rem;
   min-width: 400px;
+}
+.arrow {
+  bottom: 0;
+  display: block;
+  height: auto;
+  width: 20rem;
+  margin-left: -25px;
+  position: relative;
+}
+
+.header2 {
+  color: rgb(0, 0, 0);
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: lighter;
 }
 
 @media (max-width: 950px) {
@@ -60,21 +76,4 @@
   100% {
     bottom: 0;
   }
-}
-
-.arrow {
-  bottom: 0;
-  display: block;
-  height: auto;
-  width: 20rem;
-  margin-left: -25px;
-  position: relative;
-}
-
-.header {
-  color: rgb(0, 0, 0);
-  font-family: "Lovers Quarrel", cursive;
-  font-size: 6rem;
-  text-align: center;
-  font-weight: lighter;
 }

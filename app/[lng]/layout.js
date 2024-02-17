@@ -1,6 +1,6 @@
 import { dir } from "i18next";
 import { languages } from "../i18n/settings";
-import Navigation from "./components/navigation/navigation";
+import Navigation from "./components/navigation/Navigation";
 import "../globals.css";
 
 export const metadata = {
