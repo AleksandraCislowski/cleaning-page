@@ -6,7 +6,7 @@ export default async function Card1SubPage({ params: { lng } }) {
   const { t } = await useTranslation(lng);
 
   return (
-    <div>
+    <main>
       <div className={classes.hero}></div>
       <div className={classes.container}>
         <h2 className={classes.header2}>{t("c1h2")}</h2>
@@ -56,6 +56,6 @@ export default async function Card1SubPage({ params: { lng } }) {
           </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
