@@ -11,32 +11,39 @@ import { PersonYearCounter } from "../year-counter";
 export default async function SectionFour({ lng }) {
   const { t } = await useTranslation(lng);
   const blobText = PersonYearCounter();
-  console.log(lng);
+
   return (
     <div className={classes.box1}>
-      <div className={`${classes.blob} ${classes.blob1}`}>
-        <Blob
-          text={`${t("blob1")}${blobText}`}
-          iconImg={icon1}
-          altImg='A calendar icon.'
-        />
-      </div>
-      <div className={`${classes.blob} ${classes.blob2}`}>
-        <Blob text={t("blob2")} iconImg={icon2} altImg='A woman icon.' />
-      </div>
-      <div className={`${classes.blob} ${classes.blob3}`}>
-        <Blob text={t("blob3")} iconImg={icon3} altImg='A file icon.' />
-      </div>
-      <div className={`${classes.blob} ${classes.blob4}`}>
-        <Blob text={t("blob4")} iconImg={icon4} altImg='A Trygghansa logo.' />
-      </div>
-      <div className={`${classes.blob} ${classes.blob5}`}>
-        <Blob
-          text={t("blob5")}
-          iconImg={icon5}
-          altImg='A  Skatteverket logo.'
-        />
-      </div>
+      <Blob
+        text={`${t("blob1")}${blobText}`}
+        iconImg={icon1}
+        altImg='A calendar icon.'
+        blobShape='blob1'
+      />
+      <Blob
+        text={t("blob2")}
+        iconImg={icon2}
+        altImg='A woman icon.'
+        blobShape='blob2'
+      />
+      <Blob
+        text={t("blob3")}
+        iconImg={icon3}
+        altImg='A file icon.'
+        blobShape='blob3'
+      />
+      <Blob
+        text={t("blob4")}
+        iconImg={icon4}
+        altImg='A Trygghansa logo.'
+        blobShape='blob4'
+      />
+      <Blob
+        text={t("blob5")}
+        iconImg={icon5}
+        altImg='A Skatteverket logo.'
+        blobShape='blob5'
+      />
     </div>
   );
 }

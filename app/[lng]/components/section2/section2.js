@@ -18,7 +18,7 @@ export default async function SectionTwo({ lng }) {
             <Image
               className={classes.arrow}
               src={arrow}
-              alt='A purple arrow that points to the left'
+              alt='A purple arrow that points to the images'
             />
           </div>
         </div>

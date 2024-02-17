@@ -5,10 +5,10 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandCircleDownOutlinedIcon from "@mui/icons-material/ExpandCircleDownOutlined";
 import classes from "./accordion.module.css";
 
-export default function AccordionMyItem({ question, answer, isExpanded }) {
+export default function AccordionMyItem({ question, answer }) {
   return (
     <div className={classes.container}>
-      <Accordion defaultExpanded={isExpanded} className={classes.accordion}>
+      <Accordion className={classes.accordion}>
         <AccordionSummary
           expandIcon={<ExpandCircleDownOutlinedIcon />}
           className={classes.question}
