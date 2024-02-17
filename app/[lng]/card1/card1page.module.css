@@ -18,7 +18,7 @@
   padding-bottom: 2rem;
 }
 
-.header1 {
+.header2 {
   color: rgb(209, 3, 255);
   font-family: "Lovers Quarrel", cursive;
   font-size: 6rem;
@@ -27,7 +27,7 @@
   padding: 1rem;
 }
 
-.header2 {
+.header3 {
   font-family: "Lovers Quarrel", cursive;
   font-size: 4rem;
   text-align: center;
@@ -35,7 +35,7 @@
   padding: 1rem;
 }
 
-.header3 {
+.header4 {
   font-family: "Lovers Quarrel", cursive;
   font-size: 4rem;
   font-weight: lighter;
@@ -88,8 +88,7 @@
 .btnbox {
   max-width: 40rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
   padding: 1rem;
+  flex-direction: column;
 }

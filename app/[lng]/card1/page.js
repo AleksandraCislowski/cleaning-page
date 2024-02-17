@@ -1,5 +1,5 @@
 import { useTranslation } from "@/app/i18n";
-import classes from "./page.module.css";
+import classes from "./card1page.module.css";
 import Link from "next/link";
 
 export default async function Card1SubPage({ params: { lng } }) {
@@ -9,8 +9,8 @@ export default async function Card1SubPage({ params: { lng } }) {
     <div>
       <div className={classes.hero}></div>
       <div className={classes.container}>
-        <h1 className={classes.header1}>{t("c1h1")}</h1>
         <h2 className={classes.header2}>{t("c1h2")}</h2>
+        <h3 className={classes.header3}>{t("c1h3")}</h3>
         <p className={classes.paragraph}>{t("c1p1")}</p>
         <p className={classes.paragraph2}>{t("c1p2")}</p>
         <ul className={classes.list}>
@@ -46,7 +46,7 @@ export default async function Card1SubPage({ params: { lng } }) {
           <li>{t("c1li14")}</li>
         </ul>
         <p className={classes.paragraph}>{t("c1p11")}</p>
-        <h2 className={classes.header3}>{t("c1p12")}</h2>
+        <h4 className={classes.header4}>{t("c1p12")}</h4>
         <div className={classes.btnbox}>
           <Link href={`/${lng}/card1/attachment1`}>
             <button className={classes.btn}>{t("c1btn1")}</button>
