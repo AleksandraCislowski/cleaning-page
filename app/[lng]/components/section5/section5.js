@@ -6,7 +6,7 @@ export default async function SectionFive({ lng }) {
   return (
     <div className={classes.container}>
       <section className={classes.s2}>
-        <h2>{t("s5h1")}</h2>
+        <h2>{t("s5h2")}</h2>
         <div className={classes.testimonials}>
           <div className={`${classes.card} ${classes.card_bg_purple}`}>
             <header className={classes.card__header}>
