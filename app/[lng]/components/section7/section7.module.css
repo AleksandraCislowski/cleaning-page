@@ -24,16 +24,7 @@
   background: linear-gradient(to bottom right, rgb(158, 67, 211), pink);
 }
 
-.card2 {
-  width: 17rem;
-  height: 17rem;
-  margin: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.box {
+.item_box {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
@@ -41,7 +32,7 @@
   align-items: center;
 }
 
-.header {
+.header2 {
   font-size: 6em;
   text-align: center;
   font-weight: lighter;
@@ -50,7 +41,7 @@
   margin: 2rem;
 }
 
-.text {
+.paragraph {
   font-size: large;
   text-decoration: underline;
   margin: 0.5rem;
@@ -64,16 +55,8 @@
   margin: 10px;
 }
 
-.icon2 {
-  width: 3rem;
-  height: 3rem;
-  object-fit: contain;
-  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.7));
-  margin: 10px;
-}
-
 @media (max-width: 950px) {
-  .box {
+  .item_box {
     flex-direction: column;
   }
 }

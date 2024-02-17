@@ -18,11 +18,11 @@
   color: white;
 }
 
-.question {
+.accordion_row {
   font-size: 20px;
 }
 
-.header {
+.header2 {
   font-size: 6em;
   text-align: center;
   font-weight: lighter;

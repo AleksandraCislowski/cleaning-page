@@ -1,24 +1,24 @@
 import classes from "./section7.module.css";
 import Image from "next/image";
 
-export function Card({ icon, text, text2 }) {
+export function TextCard({ icon, text, text2 }) {
   return (
     <div className={classes.card}>
       <div>
         <div>{icon}</div>
-        <p className={classes.text}>{text}</p>
+        <p className={classes.paragraph}>{text}</p>
         <p>{text2}</p>
       </div>
     </div>
   );
 }
 
-export function Card2({ icon, text, text2 }) {
+export function MailCard({ icon, text, text2 }) {
   return (
     <div className={classes.card}>
       <div>
         <div>{icon}</div>
-        <p className={classes.text}>{text}</p>
+        <p className={classes.paragraph}>{text}</p>
         <a href='mailto: aleksandra.swigon91@gmail.com'>
           <p>{text2}</p>
         </a>
@@ -27,7 +27,7 @@ export function Card2({ icon, text, text2 }) {
   );
 }
 
-export function Card3({ src }) {
+export function FbCard({ src }) {
   return (
     <div className={classes.card2}>
       <div>

@@ -1,21 +1,21 @@
 import classes from "./section3.module.css";
 import { useTranslation } from "@/app/i18n";
-import t1 from "../../../../assets/t1.jpg";
-import t2 from "../../../../assets/t2.jpg";
-import t3 from "../../../../assets/t3.jpg";
-import t4 from "../../../../assets/t4.jpg";
-import Card from "./card";
+import t1 from "@/assets/t1.jpg";
+import t2 from "@/assets/t2.jpg";
+import t3 from "@/assets/t3.jpg";
+import t4 from "@/assets/t4.jpg";
+import Card from "./Card";
 
 export default async function SectionThree({ lng }) {
   const { t } = await useTranslation(lng);
 
   return (
-    <div className={classes.box1}>
+    <main className={classes.background}>
       <div className={classes.container}>
-        <h1 className={classes.header} id='section3'>
-          {t("h1")}
-        </h1>
-        <div className={classes.box2}>
+        <h2 className={classes.header2} id='section3'>
+          {t("h2")}
+        </h2>
+        <div className={classes.two_cards_box}>
           <Card
             imgSrc={t1}
             imgAlt={"A vacuum cleaner and a kitten next to it."}
@@ -35,7 +35,7 @@ export default async function SectionThree({ lng }) {
             lng={lng}
           />
         </div>
-        <div className={classes.box2}>
+        <div className={classes.two_cards_box}>
           <Card
             imgSrc={t3}
             imgAlt={"Window cleaning devices."}
@@ -56,6 +56,6 @@ export default async function SectionThree({ lng }) {
           />
         </div>
       </div>
-    </div>
+    </main>
   );
 }

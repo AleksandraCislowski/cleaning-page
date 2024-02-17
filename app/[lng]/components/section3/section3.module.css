@@ -1,4 +1,4 @@
-.box1 {
+.background {
   display: flex;
   flex-direction: column;
   padding-top: 3rem;
@@ -13,11 +13,11 @@
   flex-direction: column;
 }
 
-.box2 {
+.two_cards_box {
   display: flex;
 }
 
-.box3 {
+.one_card_box {
   min-width: 350px;
   flex: 1;
   height: 40rem;
@@ -33,21 +33,21 @@
 }
 
 @media (max-width: 950px) {
-  .box2 {
+  .two_cards_box {
     flex-direction: column;
   }
-  .box3 {
+  .one_card_box {
     max-width: 600px;
   }
 }
 
-.box3 img {
+.one_card_box img {
   object-fit: cover;
   height: 50%;
   width: 100%;
 }
 
-.box3 button {
+.one_card_box button {
   background: #b834d9;
   background-image: -webkit-linear-gradient(top, #b834d9, #de689d);
   background-image: -moz-linear-gradient(top, #b834d9, #de689d);
@@ -66,7 +66,7 @@
   text-decoration: none;
 }
 
-.box3 button:hover {
+.one_card_box button:hover {
   background: #fc3cef;
   text-decoration: none;
 }
@@ -75,7 +75,7 @@
   flex: 1;
 }
 
-.header {
+.header2 {
   color: rgb(191, 0, 255);
   font-size: 6em;
   text-align: center;
@@ -84,7 +84,7 @@
   font-family: "Lovers Quarrel", cursive;
 }
 
-.text h2 {
+.card_text h2 {
   padding: 1rem;
   font-weight: lighter;
   font-size: 4rem;
@@ -93,6 +93,6 @@
   filter: drop-shadow(0 0 0.75rem rgba(246, 74, 234, 0.7));
 }
 
-.text p {
+.card_text p {
   padding: 2rem;
 }

@@ -12,9 +12,9 @@ export default function Card({
   button,
 }) {
   return (
-    <div className={classes.box3}>
+    <div className={classes.one_card_box}>
       <Image src={imgSrc} alt={imgAlt} />
-      <div className={classes.text}>
+      <div className={classes.card_text}>
         <h2>{h2Text}</h2>
         <p>{pText}</p>
       </div>

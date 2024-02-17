@@ -1,6 +1,6 @@
 import { useTranslation } from "@/app/i18n";
 import classes from "./section4.module.css";
-import Blob from "./blob";
+import Blob from "./Blob";
 import icon1 from "@/assets/icons/icon1.png";
 import icon2 from "@/assets/icons/icon2.png";
 import icon3 from "@/assets/icons/icon3.png";
@@ -13,37 +13,37 @@ export default async function SectionFour({ lng }) {
   const blobText = PersonYearCounter();
 
   return (
-    <div className={classes.box1}>
+    <main className={classes.container}>
       <Blob
         text={`${t("blob1")}${blobText}`}
         iconImg={icon1}
         altImg='A calendar icon.'
-        blobShape='blob1'
+        blobShape='blob_shape_1'
       />
       <Blob
         text={t("blob2")}
         iconImg={icon2}
         altImg='A woman icon.'
-        blobShape='blob2'
+        blobShape='blob_shape_2'
       />
       <Blob
         text={t("blob3")}
         iconImg={icon3}
         altImg='A file icon.'
-        blobShape='blob3'
+        blobShape='blob_shape_3'
       />
       <Blob
         text={t("blob4")}
         iconImg={icon4}
         altImg='A Trygghansa logo.'
-        blobShape='blob4'
+        blobShape='blob_shape_4'
       />
       <Blob
         text={t("blob5")}
         iconImg={icon5}
         altImg='A Skatteverket logo.'
-        blobShape='blob5'
+        blobShape='blob_shape_5'
       />
-    </div>
+    </main>
   );
 }

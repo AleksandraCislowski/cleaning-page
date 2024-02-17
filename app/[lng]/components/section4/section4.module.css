@@ -1,12 +1,4 @@
-.paragraph {
-  color: rgb(0, 0, 0);
-  font-size: x-large;
-  text-align: center;
-  font-weight: lighter;
-  padding: 2rem;
-}
-
-.box1 {
+.container {
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
@@ -14,12 +6,19 @@
   flex-wrap: wrap;
 }
 
-.box2 {
+.blob_box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5rem;
+}
+.paragraph {
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  text-align: center;
+  font-weight: lighter;
+  padding: 2rem;
 }
 
 .icon {
@@ -42,22 +41,19 @@
   justify-content: center;
 }
 
-.blob1 {
+.blob_shape_1 {
   background-image: url(../../../../assets/blob1.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
 }
 
-.blob2 {
+.blob_shape_2 {
   background-image: url(../../../../assets/blob2.svg);
 }
-.blob3 {
+.blob_shape_3 {
   background-image: url(../../../../assets/blob3.svg);
 }
-.blob4 {
+.blob_shape_4 {
   background-image: url(../../../../assets/blob4.svg);
 }
-.blob5 {
+.blob_shape_5 {
   background-image: url(../../../../assets/blob5.svg);
 }

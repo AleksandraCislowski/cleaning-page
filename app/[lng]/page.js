@@ -2,11 +2,11 @@ import Hero from "./components/hero/Hero";
 import classes from "./components/navigation/navigation.module.css";
 import SectionOne from "./components/section1/Section1";
 import SectionTwo from "./components/section2/Section2";
-import SectionThree from "./components/section3/section3";
-import SectionFour from "./components/section4/section4";
-import SectionFive from "./components/section5/section5";
-import SectionSix from "./components/section6/section6";
-import SectionSeven from "./components/section7/section7";
+import SectionThree from "./components/section3/Section3";
+import SectionFour from "./components/section4/Section4";
+import SectionFive from "./components/section5/Section5";
+import SectionSix from "./components/section6/Section6";
+import SectionSeven from "./components/section7/Section7";
 
 export default function Home({ params: { lng } }) {
   return (
