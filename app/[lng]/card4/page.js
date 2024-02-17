@@ -1,14 +1,14 @@
 import { useTranslation } from "@/app/i18n";
-import classes from "./page.module.css";
+import classes from "./card4page.module.css";
 
-export default async function Card1SubPage({ params: { lng } }) {
+export default async function Card4SubPage({ params: { lng } }) {
   const { t } = await useTranslation(lng);
 
   return (
     <div>
       <div className={classes.hero}></div>
       <div className={classes.container}>
-        <h1 className={classes.header1}>{t("c4h1")}</h1>
+        <h2 className={classes.header2}>{t("c4h2")}</h2>
         <p className={classes.paragraph}>{t("c4p1")}</p>
         <p className={classes.paragraph2}>{t("c4p2")}</p>
         <ul className={classes.list}>

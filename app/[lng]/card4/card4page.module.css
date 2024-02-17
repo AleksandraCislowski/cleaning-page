@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../../../assets/c3.jpg);
+  background-image: url(../../../assets/c4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,18 +18,10 @@
   padding-bottom: 2rem;
 }
 
-.header1 {
+.header2 {
   color: rgb(209, 3, 255);
   font-family: "Lovers Quarrel", cursive;
   font-size: 6rem;
-  text-align: center;
-  font-weight: lighter;
-  padding: 1rem;
-}
-
-.header2 {
-  font-family: "Lovers Quarrel", cursive;
-  font-size: 4rem;
   text-align: center;
   font-weight: lighter;
   padding: 1rem;
@@ -40,4 +32,17 @@
   line-height: 1.5;
   font-size: large;
   padding: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.paragraph2 {
+  line-height: 1.5;
+  font-size: large;
+  padding-left: 1rem;
+  text-decoration: underline;
+}
+
+.list {
+  padding-left: 2rem;
+  line-height: 2;
 }
