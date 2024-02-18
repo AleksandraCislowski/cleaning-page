@@ -18,7 +18,7 @@
 }
 
 .one_card_box {
-  min-width: 350px;
+  min-width: 300px;
   flex: 1;
   height: 40rem;
   border-radius: 8px;

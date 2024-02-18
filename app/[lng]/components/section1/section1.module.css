@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  filter: drop-shadow(1.25em 0.75em 0px rgb(181, 150, 223));
+  filter: drop-shadow(1em 0.75em 0px rgb(181, 150, 223));
 }
 .img {
   clip-path: ellipse(23% 50% at 50% 50%);

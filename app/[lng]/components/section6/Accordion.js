@@ -9,12 +9,13 @@ export default function AccordionItem({ question, answer }) {
     <main className={classes.container}>
       <Accordion className={classes.accordion}>
         <AccordionSummary
+          sx={{ color: "white" }}
           expandIcon={<ExpandCircleDownOutlinedIcon />}
           className={classes.accordion_row}
         >
           {question}
         </AccordionSummary>
-        <AccordionDetails>{answer}</AccordionDetails>
+        <AccordionDetails sx={{ color: "white" }}>{answer}</AccordionDetails>
       </Accordion>
     </main>
   );
