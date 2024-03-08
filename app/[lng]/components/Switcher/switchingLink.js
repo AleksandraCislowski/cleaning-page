@@ -1,7 +1,9 @@
 "use client";
-
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import seflag from "@/assets/icons/seflag.png";
+import enflag from "@/assets/icons/enflag.png";
 
 export default function SwitchLink({ newLng }) {
   const path = usePathname();
@@ -16,9 +18,10 @@ export default function SwitchLink({ newLng }) {
     return tempPath;
   };
   const newPath = onNewPath();
+
   return (
     <Link href={newPath} style={{ textDecoration: "none" }}>
-      {newLng === "en" ? "🇺🇸" : "🇸🇪"}
+      {newLng === "en" ? <Image src={enflag} /> : <Image src={seflag} />}
     </Link>
   );
 }

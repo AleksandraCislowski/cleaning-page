@@ -1,6 +1,8 @@
-import { Trans } from "react-i18next/TransWithoutContext";
 import { languages } from "../../../i18n/settings";
+import Image from "next/image";
 import { useTranslation } from "../../../i18n";
+import seflag from "@/assets/icons/seflag.png";
+import enflag from "@/assets/icons/enflag.png";
 import classes from "./index.module.css";
 import SwitchLink from "./switchingLink";
 
@@ -9,9 +11,7 @@ export const Switcher = async ({ lng }) => {
 
   return (
     <div className={classes.switcher}>
-      <Trans i18nKey='languageSwitcher' t={t}>
-        Switch from <strong>{{ lng }}</strong> to:{" "}
-      </Trans>
+      {lng === "en" ? <Image src={enflag} /> : <Image src={seflag} />}
       {languages
         .filter((l) => lng !== l)
         .map((l, index) => {
